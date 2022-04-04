@@ -265,14 +265,7 @@
         </div>
         <!-- /page content termina su codigo -->
 
-        <!-- footer content -->
-        <footer>
-          <div class="pull-right">
-            Santos Clemente Gustavo Angel IDGS-93
-          </div>
-          <div class="clearfix"></div>
-        </footer>
-        <!-- /footer content -->
+        
       </div>
     </div>
 

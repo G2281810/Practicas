@@ -94,11 +94,11 @@
                             <td data-th="Subtotal" class="text-center">{{$datos['costo']*$datos['cantidad']}}</td>
                                  <td data-th="Otros" class="actions">
                                 <button class="btn btn-info btn-sm update-cart" data-id="{{$id }}">
-                                    <i class="fa fa-trash-0"></i>
+                                    <i class="fa fa-undo"></i>
                                 </button>
-                                <button class="btn btn-danger btn-sm update-cart"data-id="{{ $id}}">
+                                <button class="btn btn-danger btn-sm update-cart" data-id="{{ $id}}">
                                                 <i class="fa fa-trash"></i>    
-                                            </button>   
+                                </button>   
                             </td>
                         </tr>
                         @endforeach
@@ -111,7 +111,7 @@
                         <tr>
                             <td>
                                 <a href="{{url('productos')}}" class="btn btn-warning">
-                                    <i class="fa fa-angle-left">Seguir Comprando</i>
+                                    <i class="fa fa-shopping-cart "> Seguir Comprando</i>
                                 </a>
                             </td>
                             <td colspan="2" class="hidden-xs"></td>
@@ -122,19 +122,7 @@
             <!------------------------------>
 
         </div>
-        <footer class="bd-footer bg-ligth">
-            <div class="container">
-                <div class="row">
-                    <div>
-                        <ul class="list-unstyled smail text-muted">
-                            <li class="mb-2">
-                                Desarrollo Para <a href="https://utvt.edomex.gob.mx/">UTVT</a> Noveno cuatrimestre de IDGS-93 2021. &#169;
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        
         
 </body>
 </html>
